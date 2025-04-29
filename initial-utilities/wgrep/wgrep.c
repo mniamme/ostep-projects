@@ -49,6 +49,8 @@ void grep(FILE *file, char *p)
             printf("%s", buffer);
         }
     }
+
+    free(buffer);
 }
 
 int main(int argc, char *argv[])
