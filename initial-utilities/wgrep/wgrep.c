@@ -33,6 +33,7 @@ bool findPattern(char *s, int n, char *p)
 
 void grep(FILE *file, char *p)
 {
+    // set buffer to null and its size to zero to allow geline automatically allocate buffer
     char *buffer = NULL;
     size_t n = 0;
 
